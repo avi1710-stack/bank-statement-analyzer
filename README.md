@@ -59,11 +59,5 @@ Run the tests using:
 cd backend
 npm test
 ```
-
-## Future Improvements
-
-- Support more banks
-- Add PDF and CSV uploads
-- Improve error handling
-- Store statements in a database
-
+## error Handling
+If a new bank format appears, the AI parser will try to extract transactions from it. The extracted data will be validated before processing. If the format cannot be parsed correctly, we may need to update the parser.
