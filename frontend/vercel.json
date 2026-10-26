@@ -2,7 +2,7 @@
      "rewrites": [
        {
          "source": "/api/:path*",
-         "destination": "https://bank-statement-analyzer-fxcp.onrender.com/"
+         "destination": "https://bank-statement-analyzer-fxcp.onrender.com/api/:path*"
         }
      ]
    }
